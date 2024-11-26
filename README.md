@@ -50,8 +50,8 @@ Informar as variaveis conforme a sua necessidade:
 Alguns dados da infraestrutura criada serao retornados:
 
 - ec2_instance_id -> string
-- ec2_private_ip -> string
-- ec2_public_ip -> string
+- ec2_private_ip  -> string
+- ec2_public_ip   -> string
 
 # Commands Terraform
 
