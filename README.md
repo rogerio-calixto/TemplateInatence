@@ -49,8 +49,9 @@ Informar as variaveis conforme a sua necessidade:
 
 Alguns dados da infraestrutura criada serao retornados:
 
-- subnet_privada_ids [] -> list(string)
-- subnet_publica_ids [] -> list(string)
+- ec2_instance_id -> string
+- ec2_private_ip -> string
+- ec2_public_ip -> string
 
 # Commands Terraform
 
