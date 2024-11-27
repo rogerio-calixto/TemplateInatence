@@ -1,5 +1,5 @@
 variable "profile" {
-  type = string
+  type    = string
   default = null
 }
 
@@ -14,38 +14,38 @@ variable "vpc_id" {}
 variable "subnet_id" {}
 variable "sg_id" {}
 variable "associate_public_ip" {
-  type = any
+  type    = any
   default = false
 }
 variable "instance_name" {
-  type = any
+  type    = any
   default = "tpl_instance"
 }
 variable "user_data" {
-  type = any
+  type    = any
   default = null
 }
 variable "instance_profile_name" {
-  type = string
+  type    = string
   default = null
 }
 
 variable "automacao" {
-  type = any
+  type    = any
   default = "enabled"
 }
 
 variable "root_block_device_size" {
-  type = any
+  type    = any
   default = 10
 }
 
 variable "root_block_device_type" {
-  type = any
+  type    = any
   default = "gp2"
 }
 
 variable "disable_api_termination" {
-  type = any
+  type    = any
   default = false
 }

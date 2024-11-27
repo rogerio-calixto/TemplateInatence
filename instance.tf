@@ -8,10 +8,10 @@ resource "aws_instance" "instance" {
   associate_public_ip_address = var.associate_public_ip
   key_name                    = var.keypair_name
   tags = {
-    Name    = var.instance_name
+    Name        = var.instance_name
     Environment = var.ambiente
-    Project = var.projeto
-    Automacao = var.automacao
+    Project     = var.projeto
+    Automacao   = var.automacao
   }
 
   lifecycle {
