@@ -4,7 +4,7 @@ provider "aws" {
   # profile = var.profile
 
   assume_role {
-    role_arn = var.assume_role_arn
+    role_arn = "arn:aws:iam::365857435132:role/tf-role"
   }
 
   default_tags {
