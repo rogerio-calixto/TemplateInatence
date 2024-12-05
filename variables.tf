@@ -6,7 +6,7 @@ variable "profile" {
 variable "regiao" {}
 variable "projeto" {}
 variable "ambiente" {}
-variable "criado_por" {}
+variable "tipo_criacao" {}
 variable "ami" {}
 variable "instance_type" {}
 variable "keypair_name" {}

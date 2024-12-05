@@ -9,8 +9,8 @@ resource "aws_instance" "instance" {
   key_name                    = var.keypair_name
   tags = {
     Name        = var.instance_name
-    Environment = var.ambiente
-    Project     = var.projeto
+    Ambiente    = var.ambiente
+    Projeto     = var.projeto
     Automacao   = var.automacao
   }
 
