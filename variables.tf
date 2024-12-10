@@ -13,6 +13,10 @@ variable "keypair_name" {}
 variable "vpc_id" {}
 variable "subnet_id" {}
 variable "sg_id" {}
+variable "arn_assumerole" {
+  type    = string
+  default = null
+}
 variable "associate_public_ip" {
   type    = any
   default = false
